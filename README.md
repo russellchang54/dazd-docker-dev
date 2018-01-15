@@ -54,28 +54,22 @@ docker run -p 2181:2181 -p 9092:9092 \
 
 In the box
 ---
-* **spotify/kafka**
+* **russellchang54/kafka**
 
   The docker image with both Kafka and Zookeeper. Built from the `kafka`
   directory.
 
-* **spotify/kafkaproxy**
+* **russellchang54/kafkaproxy**
 
   The docker image with Kafka, Zookeeper and a Kafka 7 proxy that can be
   configured with a set of topics to mirror.
 
-Public Builds
----
-
-https://registry.hub.docker.com/u/spotify/kafka/
-
-https://registry.hub.docker.com/u/spotify/kafkaproxy/
 
 Build from Source
 ---
 
-    docker build -t spotify/kafka kafka/
-    docker build -t spotify/kafkaproxy kafkaproxy/
+    docker build -t russellchang54/kafka kafka/
+    docker build -t russellchang54/kafkaproxy kafkaproxy/
 
 Todo
 ---
